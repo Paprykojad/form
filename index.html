@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body style="background-color:hsl(148, 38%, 91%)">
+        <div class="just">
+            <div class="bod">
+                <h1>Contact us</h1>
+                <form id="name" class="two">
+                    <div id="fname" class="node">
+                        <label for="fname" class="lab">First Name *</label>
+                        <input type="text" name="fname" class="half" value="">
+                    </div>
+                    <div id="lname" class="node">
+                        <label for="lname" class="lab">Last Name *</label>
+                        <input type="text" name="lname" class="half" value="">
+                    </div>
+                </form>
+                <form id="email" class="node">
+                    <label for="email" class="lab">Email Adress *</label>
+                    <input type="text" name="email" class="whole" value="">
+                </form>
+                <form style="margin-bottom: 0px;" id="query" class="node">
+                    <p style="margin: 0px; margin-bottom: 5px;">Query Type *</p>
+                    <div class="two">
+                        <div class="rnode"style="margin-right: 20px;">
+                            <input type="radio" name="ge" value="General Enquiry">
+                            <label id="ge" class="rlab" for="ge">Geleral Enqiury</label>
+                        </div>
+                        <div class="rnode" >
+                            <input type="radio" name="sr" value="Support Request">
+                            <label id="sr" class="rlab" for="sr">Support Request</label>
+                        </div>
+                    </div>
+                </form>
+                <form id="message" class="node">
+                    <label for="message" class="lab">Message *</label>
+                    <input id="mess" type="text" name="message" class="whole" value="">
+                </form>
+                <form id="consent" class="node" style="margin-top:16px;">
+                    <input type="checkbox" name="consent" value="">
+                    <label for="consent" class="rlab" style="margin-left: 20px;"> I consent to being contacted by the team *</label>
+                </form>
+                <form id="submit" class="node">
+                    <input type="button" name="submit" value="Submit" id="sub">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
